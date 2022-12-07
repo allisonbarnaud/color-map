@@ -4,3 +4,6 @@ This app aims to map out all rgb colours as "pixels" on a website, in increments
 
 The app was written in Javascript, and the only library used is ReactJS.
 
+See below sample:
+
+![image](public/sample-color.png)
