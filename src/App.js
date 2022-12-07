@@ -1,9 +1,11 @@
 
 function App() {
 
+  // color range array which will hold all rgb values
   var colorRange = [];
 
   // triple for loop to iterate through all rgb values
+  // For loops cut down to 32 increments to lessen processing requirements, rgb values adjusted (x8) during rendering of the pixels
 
   for (let r=0; r<32; (r++)) {
     for (let g=0; g<32; (g++)) {
